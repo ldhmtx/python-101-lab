@@ -18,9 +18,8 @@ elif entprov < 0:
     print('The exam value should have been 0 or greater. It has been changed to 0.')
     entprov = 0
 entattend = int(input('Enter the Attendance grade: ==>'))
-
+#calculating end total grade
 sluttot=(entbetyg*.7)+(entprov*.2)+(entattend*.1)
-print(sluttot)
 
 #figuring correct letter grade
 print("The weighted grade for",entnamn,"is",sluttot)
